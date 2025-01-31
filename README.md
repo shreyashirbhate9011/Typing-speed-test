@@ -9,7 +9,7 @@ A responsive and interactive typing speed test website built using HTML, CSS, an
 - **Responsive Design:** Ensures a seamless experience on both desktop and mobile devices.
 
 ## Demo
-Check out the live demo [here](https://subu-coder.github.io/Typing-Speed-Test-Website/).
+Check out the live demo [here](https://github.com/shreyashirbhate9011/Typing-speed-test).
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/subu-coder/typing-speed-test.git`
