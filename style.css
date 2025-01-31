@@ -1,0 +1,141 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+body {
+    height: 100vh;
+    background-color: #1F1F1F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    /* text-align: center; */
+    top: 10px;
+    /* left:10px; */
+}
+
+.navbar {
+    position: relative;
+    width: 97%;
+    margin: auto;
+    /* height: 10vh; */
+    border-radius: 2rem;
+    background-color: #F24462;
+    padding: 1rem;
+}
+
+.navbar>h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 1.8em;
+}
+
+
+.container {
+    width: 60vw;
+    height: 50vh;
+    border: 3px solid #000000;
+    background-color: #2D2D2D;
+    /* box-shadow: 0px 0px 25px floralwhite; */
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.setting {
+    background-color: #fff345e4;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+    gap: 5vw;
+
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.setting>p>span {
+    font-size: 2rem;
+}
+
+.content {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+}
+
+.content>span {
+
+    background: none;
+    outline: none;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 3px;
+
+    opacity: 0.5;
+    color: #EA80FC;
+}
+
+.content>span:first-child {
+    opacity: 1;
+    color: #00ffffb1;
+    text-decoration: underline;
+}
+
+
+.type-box {
+    /* padding : 50px;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.type-box #text-box {
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    border-radius: 2rem;
+    padding: 15px;
+    padding-left: 20px;
+
+    border: 2px solid floralwhite;
+    outline: none;
+
+    background-color: #262728;
+    color: #00ffffb1;
+}
+
+.type-box #text-box:focus {
+    border: 2px solid #9B50BA;
+    box-shadow: 0px 0px 8px #9B50BA;
+}
+
+#reset {
+    width: 30%;
+    /* height: 30px; */
+    background-color: #FF4181;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

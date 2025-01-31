@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20230419/original/pngtree-hand-typing-vector-icon-logo-design-keyboard-computer-minimal-illustration-of-png-image_9066950.png">
+    <title>Typer</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <h1>TYPER: Be a Typing Expert</h1>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="setting">
+                <p>Time:<span id="timer"> </span> sec.</p>
+                <p>WPM: <span id="wpm"></span></p>
+                <p><span id="accuracy"></span>% Accuracy</p>
+                <p>Status: <span id="status"></span></p>
+            </div>
+            <div class="content">
+                <span id="word1"></span>
+                <span id="word2"></span>
+                <span id="word3"></span>
+                <span id="word4"></span>
+                <span id="word5"></span>
+            </div>
+            <!-- <hr> -->
+            <div class="type-box">
+                <input type="text" name="" id="text-box" autofocus>
+                <!-- <button onclick="start()">Start</button> -->
+                <br>
+                <button type="reset" onclick="reset()" id="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
