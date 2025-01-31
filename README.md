@@ -8,8 +8,8 @@ A responsive and interactive typing speed test website built using HTML, CSS, an
 - **User Feedback:** Displays detailed results including speed, accuracy, and errors.
 - **Responsive Design:** Ensures a seamless experience on both desktop and mobile devices.
 
-## Demo
-Check out the live demo [here](https://github.com/shreyashirbhate9011/Typing-speed-test).
+
+
 
 ## Installation
 1. Clone the repository: `https://github.com/shreyashirbhate9011/Typing-speed-test`
